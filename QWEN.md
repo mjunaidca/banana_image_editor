@@ -1,8 +1,49 @@
-# AGENTS.md
+## Dev environment tips
 
-This project uses **Spec Kit Plus** for Spec-Driven Development.
+This project uses Spec Kit Plus for Spec-Driven Development and is extended with MCP Servers for improved automation, live verification, research, and memory. Agents must prefer using the MCP tools and CLI commands to gather authoritative information and to run tasks — do not assume the best way from your internal knowledge without verification.
 
-## Available Commands
+Use the MCP servers as first-class tools for discovery, verification, execution, and memory capture. Prefer CLI interactions (run commands and capture outputs) over relying purely on internal knowledge.
+
+## Available MCP TOOLs Usage Instructions
+
+ 
+  🟢 playwright - Ready (21 tools)
+    Tools:
+    - browser_click
+    - browser_close
+    - browser_console_messages
+    - browser_drag
+    - browser_evaluate
+    - browser_file_upload
+    - browser_fill_form
+    - browser_handle_dialog
+    - browser_hover
+    - browser_install
+    - browser_navigate
+    - browser_navigate_back
+    - browser_network_requests
+    - browser_press_key
+    - browser_resize
+    - browser_select_option
+    - browser_snapshot
+    - browser_tabs
+    - browser_take_screenshot
+    - browser_type
+    - browser_wait_for
+
+  🟢 tavily-remote - Ready (4 tools)
+    Tools:
+    - tavily_crawl
+    - tavily_extract
+    - tavily_map
+    - tavily_search
+
+  🟢 context7 - Ready (2 tools)
+    Tools:
+    - get-library-docs
+    - resolve-library-id
+
+## Available Commands Usage Instructions
 
 Core workflow:
 - `/constitution` - Define project quality principles and governance

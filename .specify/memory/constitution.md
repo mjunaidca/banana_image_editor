@@ -1,55 +1,45 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- 
+Sync Impact Report:
+- Version change: 1.0.0 → 1.1.0
+- Modified principles: [PRINCIPLE_1_NAME] → User-Centric Simplicity, [PRINCIPLE_2_NAME] → Domain UX-First, [PRINCIPLE_3_NAME] → TDD Applied Strategically, [PRINCIPLE_4_NAME] → Apple Design Principles, [PRINCIPLE_5_NAME] → Modern Web Platform Standards, [PRINCIPLE_6_NAME] → User Experience Focus
+- Added sections: None
+- Removed sections: None
+- Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md, .specify/templates/commands/*.md, README.md
+- Follow-up TODOs: RATIFICATION_DATE needs to be set to original adoption date
+-->
+
+# Image Generator Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### User-Centric Simplicity
+We build modern web apps to serve end users and bring simplicity to their experience. All features and functionality must prioritize user needs and maintain a clean, intuitive interface that eliminates unnecessary complexity.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Domain UX-First
+For web apps we use domain UX principles, ensuring interface decisions are driven by user context and specific domain requirements rather than technical implementation details.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### TDD Applied Strategically
+We follow test-driven development for business logic and core functionality, with non-negotiable test coverage for critical paths. However, for UI layer development, we use domain UX principles so no test-driven development is required for UI layer components where rapid iteration and visual feedback are more valuable.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Apple Design Principles
+We follow Apple-like design principles and best practices to build modern web platforms, emphasizing clean aesthetics, intuitive interactions, and high-quality user experience.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Modern Web Platform Standards
+We build modern web platforms using current web standards and technologies that ensure performance, accessibility, and cross-browser compatibility.
 
-### [PRINCIPLE_6_NAME]
+### User Experience Focus
+Our primary focus is on delivering exceptional user experience through thoughtful design, intuitive interactions, and seamless functionality that adds real value to users' lives.
 
+## Technology Stack Requirements
 
-[PRINCIPLE__DESCRIPTION]
+We utilize modern web technologies including React, TypeScript, and CSS-in-JS solutions to ensure maintainable, scalable, and performant applications.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Our development workflow emphasizes rapid iteration on UI components while maintaining rigorous testing standards for business logic. Code reviews must verify compliance with design principles and user experience standards.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices. All PRs and code reviews must verify compliance with these principles. Amendments require documentation of reasoning and approval from core team members.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.1.0 | **Ratified**: TODO(RATIFICATION_DATE): Original adoption date required | **Last Amended**: 2025-10-03
